@@ -1,4 +1,3 @@
-// var cards = ["queen", "queen", "king", "king"];
 var cards = [
 {
 	rank: "queen",
@@ -59,15 +58,4 @@ function createBoard(){
 
 createBoard();
 
-// flipCard(0);
-// flipCard(2);
-
-// var cardOne = cards[0];
-// var cardTwo = cards[2];
-
-// cardsInPlay.push(cardOne);
-// cardsInPlay.push(cardTwo);
-
-// console.log("User flipped " + cardOne);
-// console.log("User flipped " + cardTwo);
-
+document.querySelectorAll('button')[0].addEventListener("click", location.reload.bind(location));

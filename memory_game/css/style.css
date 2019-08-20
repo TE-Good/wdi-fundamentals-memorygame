@@ -85,3 +85,16 @@ a {
 a:hover {
 	border-color: white;
 }
+
+button {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	font-family: Raleway, sans-serif;
+	height: 50px;
+	width: 100px;
+	margin: 20px 0 -10px 0;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+	border: 0;
+}
